@@ -1,6 +1,6 @@
 ## SDN Ring Topology with Proactive Rerouting
 
-This SDN project is implementing an 8-switch ring topology with a RYU controller. The controller performs link-failure "rerouting" via OpenFlow 1.3 and continuously collects network telemetry. Developed and tested on Mininet with OpenvSwitch. 
+This SDN project is implementing an 8-switch ring topology with a RYU controller (the number of switches and hosts can be changed). The controller performs link-failure "rerouting" via OpenFlow 1.3 and continuously collects network telemetry. Developed and tested on Mininet with OpenvSwitch. 
 
 ## Network Topology
 
