@@ -9,6 +9,8 @@ This SDN project is implementing an 8-switch ring topology with a RYU controller
 - Port 1 - clockwise ring link | Port 2 - counter-clockwise ring link | Port 3 - host access
 - Controller on 127.0.0.1:6653, OpenFlow 1.3
 
+<img width="2403" height="1656" alt="na" src="https://github.com/user-attachments/assets/310c620c-71ad-494b-8d39-7150a10d0467" />
+
 ## Project Structure
 
 | Fichier | Description |
