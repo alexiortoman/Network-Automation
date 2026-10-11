@@ -13,7 +13,7 @@ This SDN project is implementing an 8-switch ring topology with a RYU controller
 
 ## Project Structure
 
-| Fichier | Description |
+| File | Description |
 | :--- | :--- |
 | `SourceofTruth.yaml` | Auto-generated topology definition |
 | `source_of_truth.py` | YAML generator |
