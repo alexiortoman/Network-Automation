@@ -207,7 +207,7 @@ class Orchestrator(app_manager.RyuApp):
 
         self.telemetry.record_failure_port(sw_name, port_no)
 
-        # Find which link uses this port and trigger rerouting
+        # Find which link uses this port and triggers rerouting
         for src, dst, attrs in self.sot.intended_graph.edges(data=True):
             if src == sw_name and attrs.get('port_out') == port_no:
                 key = tuple(sorted([src, dst]))
